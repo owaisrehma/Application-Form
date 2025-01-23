@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="Job Application.css">
+    <link rel="stylesheet" href="media application.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application <span class="web">(Web)</span></h1>
+        <form> 
+            <div class="pall">
+            <div id="p1">
+                <label for=""><p class="para">First Name</p></label>
+                <input class="text1" type="text" placeholder=" ">
+            </div>
+
+            <div id="p1">
+                <label for=""><p class="para">Last Name</p></label>
+                <input class="text1" type="text">
+            </div>
+        </div>
+        <!------------------------------------------------------->
+                
+        <div class="pall">
+            <div id="p1">
+                <label for=""><p class="para">Email</p></label>
+                <input class="text1" type="text" placeholder=" ">
+            </div>
+
+            <div id="p1">
+                <label for=""><p class="para">Job Role</p></label>
+                <input class="text1" list="Languages" type="text" placeholder="Select Job Role">
+                <datalist id="Languages">
+                <option value="Objective C">Objective C</option>
+                <option value="C++">C++</option>
+                <option value="C#">C#</option>
+                <option value="Cobol">Cobol</option>
+                <option value="Go">Go</option>
+                <option value="Java">Java</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="PHP">PHP</option>
+                <option value="Pascal">Pascal</option>
+                <option value="Perl">Perl</option>
+                <option value="R">R</option>
+                <option value="Swift">Swift</option>
+                </datalist>
+
+                
+            </div>
+        </div>
+            <!---------------------------------------------------->
+            <div class="pall">
+                <div id="p1">
+                    <label for=""><p class="para">Address</p></label>
+                    <input class="text2" type="text" placeholder=" ">
+                </div>
+                </div>
+                <!------------------------------------->
+
+                <div class="pall">
+                    <div id="p1">
+                        <label for=""><p class="para">City</p></label>
+                        <input class="text1" type="text" placeholder=" ">
+                    </div>
+        
+                    <div id="p1">
+                        <label for=""><p class="para">Pincode</p></label>
+                        <input class="text1" type="text">
+                    </div>
+                </div>
+
+                <!------------------------------------->
+
+                <div class="pall2">
+                    <div id="p1">
+                        <label for=""><p class="para">Start Date</p></label>
+                        <input class="text5" type="date" placeholder="MM/DD/YYYY" onfocus="(this.type='date')">
+                    </div>
+        
+                    <div id="p1">
+                        <label for=""><p class="para">Upload your cv</p></label>
+                        <input class="text4" type="file">
+                    </div>
+                </div>
+                
+            
+             <!------------------------------------->
+
+             <button class="btn">Apply Now</button>
+
+            
+        </form>
+    </div>
+</body>
+</html>
